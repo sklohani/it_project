@@ -1,0 +1,73 @@
+h2 a {
+    color: #343642;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.login-form {
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+    margin: 8em auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: #94aab0;
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form h3 {
+    text-align: center;
+    color: #343642;
+}
+
+.login-form .form-input {
+    width: 50%;
+    padding: 1.5%;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.btnSubmit {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btnSubmit:hover {
+    transform: scale(1.1);
+}
+
+.login-form .ForgetPwd {
+    color: #0062cc;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.login-form .register {
+    color: #0062cc;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+
+
+.ForgetPwd:hover, .register:hover {
+    font-size: 16px;
+    color: #073a72;
+}

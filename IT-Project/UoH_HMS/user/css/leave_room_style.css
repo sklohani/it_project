@@ -1,0 +1,32 @@
+.leave-form {
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: #94aab0;
+    padding: 5%;
+}
+
+.leave-form .form-input {
+    width: 50%;
+    padding: 1.5%;
+    margin: 25px;
+}
+
+.btnSubmit {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btnSubmit:hover {
+    transform: scale(1.1);
+}

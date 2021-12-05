@@ -1,0 +1,70 @@
+h2 a {
+    text-decoration: none;
+    color: #343642;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    display: block;
+}
+
+.container {
+    width: 80%;
+    height: 440px;
+    max-width: 1000px;
+    text-align: center;
+    margin: 8em auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    padding: 2% 5%;
+    /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19); */
+
+}
+
+.leftdiv {
+    float: left;
+    width: 25%;
+}
+
+.rightdiv {
+    float: right;
+    width: 75%;
+}
+
+.btnPart {
+    background-color:#ecaf3e;
+    color: #fff;
+    border: 0px;
+    border-radius: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 95%;
+    height: 40px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.headerBtn {
+    background-color: #343642;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 95%;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.btnPart:hover {
+    background-color:#d38c09;
+    transform: scale(1.1);
+}
+
+.btnPart a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}

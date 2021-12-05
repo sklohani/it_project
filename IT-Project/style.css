@@ -1,0 +1,49 @@
+h2 {
+    color: #343642;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    display: block;
+}
+
+#box {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin: 8em auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: #94aab0;
+    display: block;
+}
+  
+a{
+    color: #94aab0;
+    text-decoration: none;
+}
+  
+#library{
+    display: inline-block;
+}
+  
+#verticalLine {
+    display: inline-block;
+    margin-left: 20px;
+    border-left: solid #343642;
+}
+  
+#hostel-link{
+    margin-left: 20px;
+}
+  
+#library, #hostel
+{
+    transition: all .2s ease-in-out;
+}
+  
+#library:hover, #hostel:hover
+{
+    transform: scale(1.1);
+}
