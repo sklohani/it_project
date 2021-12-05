@@ -1,0 +1,11 @@
+**Database Name: lmsdb**
+
+**Developed By: Shobhit Kumar**
+
+**User Login**
+- Users can register themselves, upon verification from admin account, user can login.
+
+**Admin Login - Login Details**
+Email: admin@uohyd.ac.in
+Password: admin@uoh
+
